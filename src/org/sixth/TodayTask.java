@@ -8,6 +8,32 @@ import java.util.Map.Entry;
 
 public class TodayTask {
 	
+<<<<<<< HEAD
+	private int id;
+	
+	private String mail;
+	
+	private float sal;
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int i) {
+		this.id = i;
+	}
+
+	public String getMail() {
+		return mail;
+	}
+
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
+
+	public float getSal() {
+		return sal;
+=======
 	public static void main(String[] args) {
 		Map<Integer , String > mp = new TreeMap<>();
 		mp.put(10, "java");
@@ -30,7 +56,15 @@ public class TodayTask {
 			System.out.println(entry.getKey());
 			System.out.println(entry.getValue());
 		
+>>>>>>> 1f7ddcb0fe3807df7a8a05d7e58f018ecc81e8d0
 	}
 
+	public void setSal(float sal) {
+		this.sal = sal;
+	}
+	
+	
+	
+	
 }
 }
