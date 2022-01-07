@@ -24,13 +24,7 @@ public class TodayTask {
         Collection <String> values = mp.values();
         System.out.println(values);
         
-        Set <Entry <Integer,String>> entrySet = mp.entrySet();
-		for(Entry<Integer,String> entry : entrySet) {
-			System.out.println(entry);
-			System.out.println(entry.getKey());
-			System.out.println(entry.getValue());
-		
+    
 	}
 
-}
 }
